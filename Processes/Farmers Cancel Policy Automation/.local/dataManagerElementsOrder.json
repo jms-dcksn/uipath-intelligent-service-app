@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "EmailHTML&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "PolicyNumber",
+        "PolicyType",
+        "AgencyCustomerID",
+        "CompanyName",
+        "CompanyPhone",
+        "InsuredName",
+        "CancellationDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

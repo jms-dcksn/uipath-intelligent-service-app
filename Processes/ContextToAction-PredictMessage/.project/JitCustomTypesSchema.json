@@ -1,0 +1,44 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "xYMvI8Ec3bQxUZPfYWItK8M1aFjvof26Zp2FMMoPlRU",
+        "bundleName": "PredictEmail_8cd0d",
+        "entitiesBundle": {
+          "Types": {
+            "PredictEmail_8cd0d": {
+              "name": "PredictEmail_8cd0d",
+              "properties": [
+                {
+                  "name": "subject",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "body",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": {
+                "ClrType": "System.Object, System.Private.CoreLib"
+              }
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.System.Activities.ViewModels.SWEntities.PredictEmail_8cd0d",
+        "hash": "eFlNdkk4RWMzYlF4VVpQZllXSXRLOE0xYUZqdm9mMjZacDJGTU1vUGxSVQ",
+        "assemblyName": "PredictEmail_8cd0d.xX3GxjCX1G141kuT3Qo6o21"
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "CMDatasets",
+      "displayName": "CM Datasets",
+      "entityTypeId": 0,
+      "entityType": "Entity",
+      "description": "",
+      "fields": [
+        {
+          "name": "Name",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "Name",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Owner",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "Owner",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "DatasetId",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "Dataset Id",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        }
+      ],
+      "isRbacEnabled": false,
+      "invalidIdentifiers": [],
+      "isModelReserved": false
+    },
+    {
+      "name": "FWSCMAutomations",
+      "displayName": "FWS CM Automations",
+      "entityTypeId": 0,
+      "entityType": "Entity",
+      "description": "Automations for FWS workstream for Farmers CM Demo",
+      "fields": [
+        {
+          "name": "Name",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": true,
+          "displayName": "Name",
+          "description": "Name of the automation that will appear in App",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "MessageLabel",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "Message Label",
+          "description": "The CM Predicted Message Label that will align to an automation name",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        }
+      ],
+      "isRbacEnabled": false,
+      "invalidIdentifiers": [],
+      "isModelReserved": false
+    }
+  ],
+  "choicesets": []
+}

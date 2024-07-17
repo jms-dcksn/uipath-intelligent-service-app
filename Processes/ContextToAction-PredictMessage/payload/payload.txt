@@ -1,0 +1,24 @@
+﻿{
+    "documents": [
+      {
+        "messages": [
+          {
+            "body": {
+              "text": "<TEXT>"
+            },
+            "from": "<FROM>",
+            "sent_at": "<SENT>",
+            "subject": {
+                "text": "<SUBJECT>"
+              },
+            "to": [
+              "<TO>"
+            ]
+          }
+        ],
+        "timestamp": "<TIME>",
+        "user_properties": {
+        }
+      }
+    ]
+}

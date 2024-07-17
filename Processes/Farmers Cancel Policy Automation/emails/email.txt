@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemco Insurance - Vehicle Addition Follow-up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #007BFF;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #007BFF;
+      color: #fff;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Farmers Insurance</h2>
+    <p>
+      <img src="https://logos-world.net/wp-content/uploads/2023/02/Farmers-Insurance-Symbol.png" width="150">
+    </p>
+    <p>Dear Valued Customer,</p>
+    <p>We have processed your cancellation request. We are sorry to see you go!</p>
+    <p>This email is to confirm your cancellation request for policy: <POLICY>. Your confirmation number is: C220230 </p>
+    <p>
+    Please take 2 minutes to complete following survey. You'll be entered in a sweepstakes to win an Apple iPad!
+    </p>
+    <p><a href="farmers.com" class="button">Start Survey</a></p>
+    <p>If you have any questions or need assistance, feel free to contact our customer service team at <customer_service_email> or 1-800-WeAreFarmers.</p>
+
+    <p>Best regards,</p>
+    <p>Farmers Insurance</p>
+
+    <p><a href="https://aaa.com/contact-us" class="button">Visit Customer Portal</a></p>
+  </div>
+</body>
+
+</html>

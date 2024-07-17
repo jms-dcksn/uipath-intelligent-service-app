@@ -1,0 +1,50 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Index&Sequence_1",
+        "BodyText&Sequence_1",
+        "QueueEmail&Sequence_1",
+        "StatusCode&Sequence_1",
+        "TransactionItem&Sequence_1",
+        "ApiKey&Sequence_1",
+        "Auth&Sequence_1",
+        "LabelsList&Sequence_1",
+        "Label&Sequence_2",
+        "JsonResponse&Sequence_1",
+        "Response&Sequence_1",
+        "PredictPayload&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_API_Asset_Name",
+        "Entities",
+        "out_Labels",
+        "in_PredictUrl",
+        "in_Message",
+        "in_Subject"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AddQueueItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Items&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

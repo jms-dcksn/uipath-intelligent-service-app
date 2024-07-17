@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Email&Sequence_1",
+        "PolicyNumber&Sequence_1",
+        "CancellationDate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_HTMLEntities",
+        "in_BodyHTML",
+        "in_BodyText",
+        "in_Label",
+        "out_EntitiesDT"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

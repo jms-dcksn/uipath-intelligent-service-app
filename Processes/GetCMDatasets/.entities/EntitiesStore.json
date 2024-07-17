@@ -1,0 +1,2229 @@
+{
+  "IsCloudStoreUrl": true,
+  "StoreUrl": "https://cloud.uipath.com/jdautghcbqxb/DefaultTenant/dataservice_/entities",
+  "TenantName": "DefaultTenant",
+  "Entities": [
+    {
+      "Id": "ae0d075f-66fa-ee11-aaf0-6045bd086125",
+      "Name": "CCProject",
+      "DisplayName": "CC Project",
+      "Description": "The parent project entity",
+      "CreateTime": "2024-04-14T13:53:29.297Z",
+      "UpdateTime": "2024-04-14T14:06:21.9Z",
+      "Fields": [
+        {
+          "Id": "edca0b78-47fc-4fba-bdb7-40465a1f371f",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-14T13:53:29.307Z",
+          "UpdateTime": "2024-04-14T13:53:29.307Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "c9678b6b-66fa-ee11-aaf0-6045bd086125",
+          "Name": "Customer",
+          "DisplayName": "Customer",
+          "Description": "",
+          "CreateTime": "2024-04-14T13:53:50.287Z",
+          "UpdateTime": "2024-04-14T13:53:50.287Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "ca678b6b-66fa-ee11-aaf0-6045bd086125",
+          "Name": "ProjectLead",
+          "DisplayName": "Project Lead",
+          "Description": "",
+          "CreateTime": "2024-04-14T13:53:59.187Z",
+          "UpdateTime": "2024-04-14T13:53:59.187Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "da824173-66fa-ee11-aaf0-6045bd086125",
+          "Name": "Engineer",
+          "DisplayName": "Engineer",
+          "Description": "",
+          "CreateTime": "2024-04-14T13:54:03.233Z",
+          "UpdateTime": "2024-04-14T13:54:03.233Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "3b70bb80-66fa-ee11-aaf0-6045bd086125",
+          "Name": "Coordinator",
+          "DisplayName": "Coordinator",
+          "Description": "",
+          "CreateTime": "2024-04-14T13:54:25.85Z",
+          "UpdateTime": "2024-04-14T13:54:25.85Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "d916b686-66fa-ee11-aaf0-6045bd086125",
+          "Name": "LeadTechnician",
+          "DisplayName": "Lead Technician",
+          "Description": "",
+          "CreateTime": "2024-04-14T13:54:35.87Z",
+          "UpdateTime": "2024-04-14T13:54:35.87Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "60278699-66fa-ee11-aaf0-6045bd086125",
+          "Name": "XeroContactID",
+          "DisplayName": "Xero Contact ID",
+          "Description": "",
+          "CreateTime": "2024-04-14T13:55:07.44Z",
+          "UpdateTime": "2024-04-14T13:55:07.44Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "d6b6872b-68fa-ee11-aaf0-6045bd086125",
+          "Name": "ProjectName",
+          "DisplayName": "Project Name",
+          "Description": "",
+          "CreateTime": "2024-04-14T14:06:21.907Z",
+          "UpdateTime": "2024-04-14T14:06:21.907Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "8dd78442-809b-41d5-8fef-756e6a820ef6",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-14T13:53:29.307Z",
+          "UpdateTime": "2024-04-14T13:53:29.307Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "bbd01ab7-9d5d-4e92-a892-aa21a9174fdc",
+          "Name": "CreatedBy",
+          "DisplayName": "CreatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-14T13:53:29.307Z",
+          "UpdateTime": "2024-04-14T13:53:29.307Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "d4a55c7b-d8f5-498a-a6e8-abaee8855dae",
+          "Name": "UpdatedBy",
+          "DisplayName": "UpdatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-14T13:53:29.307Z",
+          "UpdateTime": "2024-04-14T13:53:29.307Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "6cb789dc-179a-4bcf-8a33-ffb552f4cb75",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-14T13:53:29.307Z",
+          "UpdateTime": "2024-04-14T13:53:29.307Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 0,
+      "EntityType": "Entity"
+    },
+    {
+      "Id": "4c87d1bb-95f9-ee11-aaf0-6045bd086125",
+      "Name": "CCProjectLineItems",
+      "DisplayName": "CC Project Line Items",
+      "Description": "",
+      "CreateTime": "2024-04-13T13:00:00.153Z",
+      "UpdateTime": "2024-04-14T14:09:00.96Z",
+      "Fields": [
+        {
+          "Id": "df804da8-402b-47d5-86fd-42036dcb5e29",
+          "Name": "UpdatedBy",
+          "DisplayName": "UpdatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-13T13:00:00.193Z",
+          "UpdateTime": "2024-04-13T13:00:00.193Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "c7b69dcd-95f9-ee11-aaf0-6045bd086125",
+          "Name": "ProductCode",
+          "DisplayName": "Product Code",
+          "Description": "",
+          "CreateTime": "2024-04-13T13:00:30.02Z",
+          "UpdateTime": "2024-04-13T13:00:30.02Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "a45941d7-95f9-ee11-aaf0-6045bd086125",
+          "Name": "Description",
+          "DisplayName": "Description",
+          "Description": "",
+          "CreateTime": "2024-04-13T13:00:46.187Z",
+          "UpdateTime": "2024-04-13T13:00:46.187Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "cf29f749-64fa-ee11-aaf0-6045bd086125",
+          "Name": "Name",
+          "DisplayName": "Name",
+          "Description": "",
+          "CreateTime": "2024-04-14T13:38:34.97Z",
+          "UpdateTime": "2024-04-14T13:38:34.97Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "d029f749-64fa-ee11-aaf0-6045bd086125",
+          "Name": "Quantity",
+          "DisplayName": "Quantity",
+          "Description": "",
+          "CreateTime": "2024-04-14T13:38:43.747Z",
+          "UpdateTime": "2024-04-14T13:38:43.747Z",
+          "SqlType": {
+            "Name": "DECIMAL",
+            "LengthLimit": 1000,
+            "MaxValue": 1000000000000.0,
+            "MinValue": -1000000000000.0,
+            "DecimalPrecision": 2
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "92b2568a-68fa-ee11-aaf0-6045bd086125",
+          "Name": "CCProject",
+          "DisplayName": "CC Project",
+          "Description": "",
+          "CreateTime": "2024-04-14T14:09:00.95Z",
+          "UpdateTime": "2024-04-14T14:09:00.95Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "CCProject"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "6aac7a98-95e2-48ef-8b2d-77486940833f",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-13T13:00:00.193Z",
+          "UpdateTime": "2024-04-13T13:00:00.193Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "e81b7c4e-523a-453c-a139-79bf8574f95a",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-13T13:00:00.193Z",
+          "UpdateTime": "2024-04-13T13:00:00.193Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "369db17a-fe34-4dee-82d1-95995e8f1c28",
+          "Name": "CreatedBy",
+          "DisplayName": "CreatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-13T13:00:00.193Z",
+          "UpdateTime": "2024-04-13T13:00:00.193Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "e478a3fe-3f55-4b5e-8432-b361a09fb4a9",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-13T13:00:00.193Z",
+          "UpdateTime": "2024-04-13T13:00:00.193Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 0,
+      "EntityType": "Entity"
+    },
+    {
+      "Id": "5a97cef1-9006-ef11-aaf0-6045bd086125",
+      "Name": "CMDatasets",
+      "DisplayName": "CM Datasets",
+      "Description": "",
+      "CreateTime": "2024-04-30T01:28:28.363Z",
+      "UpdateTime": "2024-04-30T01:30:42.583Z",
+      "Fields": [
+        {
+          "Id": "af9c4889-f41e-46dc-b46e-26b2d3f5cc82",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-30T01:28:28.373Z",
+          "UpdateTime": "2024-04-30T01:28:28.373Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "fc396570-1dbb-4560-a70d-4ea8c6f29a2c",
+          "Name": "UpdatedBy",
+          "DisplayName": "UpdatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-30T01:28:28.373Z",
+          "UpdateTime": "2024-04-30T01:28:28.373Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "489ccef9-9006-ef11-aaf0-6045bd086125",
+          "Name": "Name",
+          "DisplayName": "Name",
+          "Description": "",
+          "CreateTime": "2024-04-30T01:28:41.783Z",
+          "UpdateTime": "2024-04-30T01:28:41.783Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "499ccef9-9006-ef11-aaf0-6045bd086125",
+          "Name": "Owner",
+          "DisplayName": "Owner",
+          "Description": "",
+          "CreateTime": "2024-04-30T01:28:48.46Z",
+          "UpdateTime": "2024-04-30T01:28:48.46Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "c1c8ce41-9106-ef11-aaf0-6045bd086125",
+          "Name": "DatasetId",
+          "DisplayName": "Dataset Id",
+          "Description": "",
+          "CreateTime": "2024-04-30T01:30:42.577Z",
+          "UpdateTime": "2024-04-30T01:30:42.577Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "6b2df3fa-f40f-4889-99e9-8194a2cfdf04",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-30T01:28:28.373Z",
+          "UpdateTime": "2024-04-30T01:28:28.373Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "3aa4e9e2-f4ea-484f-a03b-9f645843fef3",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-30T01:28:28.373Z",
+          "UpdateTime": "2024-04-30T01:28:28.373Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "fbb871fb-3882-491e-ae9a-c7469d55e001",
+          "Name": "CreatedBy",
+          "DisplayName": "CreatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-04-30T01:28:28.373Z",
+          "UpdateTime": "2024-04-30T01:28:28.373Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 0,
+      "EntityType": "Entity"
+    },
+    {
+      "Id": "c0fad30e-8fc4-ee11-85f9-6045bd086125",
+      "Name": "Customers",
+      "DisplayName": "Customers",
+      "Description": "Customers for Bank Mainframe",
+      "CreateTime": "2024-02-06T01:28:41.32Z",
+      "UpdateTime": "2024-02-06T01:32:03.653Z",
+      "Fields": [
+        {
+          "Id": "d5654742-7528-42fe-9bdb-5461a1ac0154",
+          "Name": "CreatedBy",
+          "DisplayName": "CreatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-06T01:28:41.33Z",
+          "UpdateTime": "2024-02-06T01:28:41.33Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "963e4803-ecac-471d-85d4-582df2c1bd08",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-06T01:28:41.33Z",
+          "UpdateTime": "2024-02-06T01:28:41.33Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "a25d6c3a-8fc4-ee11-85f9-6045bd086125",
+          "Name": "CustID",
+          "DisplayName": "CustId",
+          "Description": "",
+          "CreateTime": "2024-02-06T01:29:54.463Z",
+          "UpdateTime": "2024-02-06T01:29:54.463Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "403a1c49-8fc4-ee11-85f9-6045bd086125",
+          "Name": "FullName",
+          "DisplayName": "Full Name",
+          "Description": "",
+          "CreateTime": "2024-02-06T01:30:19.1Z",
+          "UpdateTime": "2024-02-06T01:30:19.1Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "f8d8e154-8fc4-ee11-85f9-6045bd086125",
+          "Name": "PhoneNumber",
+          "DisplayName": "Phone Number",
+          "Description": "",
+          "CreateTime": "2024-02-06T01:30:38.85Z",
+          "UpdateTime": "2024-02-06T01:30:38.85Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "c6408a5e-8fc4-ee11-85f9-6045bd086125",
+          "Name": "DateofBirth",
+          "DisplayName": "Date of Birth",
+          "Description": "",
+          "CreateTime": "2024-02-06T01:30:55.053Z",
+          "UpdateTime": "2024-02-06T01:30:55.053Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "7dbbb073-8fc4-ee11-85f9-6045bd086125",
+          "Name": "CustomerIDNumber",
+          "DisplayName": "Customer ID Number",
+          "Description": "",
+          "CreateTime": "2024-02-06T01:31:30.53Z",
+          "UpdateTime": "2024-02-06T01:31:30.53Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "1190fb7a-8fc4-ee11-85f9-6045bd086125",
+          "Name": "EmailAddress",
+          "DisplayName": "Email Address",
+          "Description": "",
+          "CreateTime": "2024-02-06T01:31:42.783Z",
+          "UpdateTime": "2024-02-06T01:31:42.783Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "1290fb7a-8fc4-ee11-85f9-6045bd086125",
+          "Name": "UserName",
+          "DisplayName": "User Name",
+          "Description": "",
+          "CreateTime": "2024-02-06T01:31:48.73Z",
+          "UpdateTime": "2024-02-06T01:31:48.73Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "bfd76c87-8fc4-ee11-85f9-6045bd086125",
+          "Name": "Risk",
+          "DisplayName": "Risk",
+          "Description": "",
+          "CreateTime": "2024-02-06T01:32:03.657Z",
+          "UpdateTime": "2024-02-06T01:32:03.657Z",
+          "SqlType": {
+            "Name": "BIT",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "bfa955f7-dd45-4e1b-b678-b16edcbe8748",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-06T01:28:41.33Z",
+          "UpdateTime": "2024-02-06T01:28:41.33Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "1f17531d-df94-46df-a335-e1085298b511",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-06T01:28:41.33Z",
+          "UpdateTime": "2024-02-06T01:28:41.33Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "fef5d976-0b13-487c-9400-e8fe4979ef6f",
+          "Name": "UpdatedBy",
+          "DisplayName": "UpdatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-06T01:28:41.33Z",
+          "UpdateTime": "2024-02-06T01:28:41.33Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 11,
+      "EntityType": "Entity"
+    },
+    {
+      "Id": "7a41eadc-34ed-ee11-aaf0-6045bd086125",
+      "Name": "DFS",
+      "DisplayName": "DFS",
+      "Description": "",
+      "CreateTime": "2024-03-28T18:56:20.533Z",
+      "UpdateTime": "2024-03-28T18:58:21.69Z",
+      "Fields": [
+        {
+          "Id": "9ac7b0dd-3df5-42d1-a650-41783098318b",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-28T18:56:20.543Z",
+          "UpdateTime": "2024-03-28T18:56:20.543Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "bb53fdc9-e181-417a-a9d7-4e44b5ed10d5",
+          "Name": "CreatedBy",
+          "DisplayName": "CreatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-28T18:56:20.543Z",
+          "UpdateTime": "2024-03-28T18:56:20.543Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "fb55311b-35ed-ee11-aaf0-6045bd086125",
+          "Name": "FileName",
+          "DisplayName": "FileName",
+          "Description": "",
+          "CreateTime": "2024-03-28T18:58:05.037Z",
+          "UpdateTime": "2024-03-28T18:58:05.037Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "0de21e25-35ed-ee11-aaf0-6045bd086125",
+          "Name": "Rate",
+          "DisplayName": "Rate",
+          "Description": "",
+          "CreateTime": "2024-03-28T18:58:21.68Z",
+          "UpdateTime": "2024-03-28T18:58:21.68Z",
+          "SqlType": {
+            "Name": "DECIMAL",
+            "LengthLimit": 1000,
+            "MaxValue": 1000000000000.0,
+            "MinValue": -1000000000000.0,
+            "DecimalPrecision": 2
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "3c7bba6f-cf7b-444a-b5a8-b18c2e4add17",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-28T18:56:20.543Z",
+          "UpdateTime": "2024-03-28T18:56:20.543Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "0cf57e2b-3c17-4ec5-90b1-d6a7269a85bd",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-28T18:56:20.543Z",
+          "UpdateTime": "2024-03-28T18:56:20.543Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "c49f8f4c-9772-40d3-b4d6-dda6af0eda2b",
+          "Name": "UpdatedBy",
+          "DisplayName": "UpdatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-28T18:56:20.543Z",
+          "UpdateTime": "2024-03-28T18:56:20.543Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 0,
+      "EntityType": "Entity"
+    },
+    {
+      "Id": "42b1bfca-51cb-ee11-85f9-6045bd086125",
+      "Name": "InsuranceDemo",
+      "DisplayName": "InsuranceDemo",
+      "Description": "",
+      "CreateTime": "2024-02-14T15:57:45.937Z",
+      "UpdateTime": "2024-02-14T15:57:46.127Z",
+      "Fields": [
+        {
+          "Id": "4cb1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "Year",
+          "DisplayName": "Year",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.047Z",
+          "UpdateTime": "2024-02-14T15:57:46.047Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "4db1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "Category",
+          "DisplayName": "Category",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.057Z",
+          "UpdateTime": "2024-02-14T15:57:46.057Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "4eb1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "GeneralLiability",
+          "DisplayName": "GeneralLiability",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.063Z",
+          "UpdateTime": "2024-02-14T15:57:46.063Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "4fb1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "Auto1",
+          "DisplayName": "Auto1",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.073Z",
+          "UpdateTime": "2024-02-14T15:57:46.073Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "50b1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "Property1",
+          "DisplayName": "Property1",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.08Z",
+          "UpdateTime": "2024-02-14T15:57:46.08Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "51b1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "Indentifier",
+          "DisplayName": "Indentifier",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.083Z",
+          "UpdateTime": "2024-02-14T15:57:46.083Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "52b1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "Location",
+          "DisplayName": "Location",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.09Z",
+          "UpdateTime": "2024-02-14T15:57:46.09Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "53b1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "Address",
+          "DisplayName": "Address",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.097Z",
+          "UpdateTime": "2024-02-14T15:57:46.097Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "54b1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "Interest",
+          "DisplayName": "Interest",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.1Z",
+          "UpdateTime": "2024-02-14T15:57:46.1Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "55b1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "FTE",
+          "DisplayName": "FTE",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.107Z",
+          "UpdateTime": "2024-02-14T15:57:46.107Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "56b1bfca-51cb-ee11-85f9-6045bd086125",
+          "Name": "LOC1",
+          "DisplayName": "LOC1",
+          "Description": "",
+          "CreateTime": "2024-02-14T15:57:46.113Z",
+          "UpdateTime": "2024-02-14T15:57:46.113Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "210d09a4-204a-4e31-9dc8-6314eff34eed",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-14T15:57:45.947Z",
+          "UpdateTime": "2024-02-14T15:57:45.947Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "29a0df5f-8f63-4497-bd11-842c5d07ee41",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-14T15:57:45.947Z",
+          "UpdateTime": "2024-02-14T15:57:45.947Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "f20aaa37-a48f-4432-9385-b65cfe1452b1",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-14T15:57:45.947Z",
+          "UpdateTime": "2024-02-14T15:57:45.947Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "bedf8bfd-567a-43ad-ae1c-d74f710a1c89",
+          "Name": "UpdatedBy",
+          "DisplayName": "UpdatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-14T15:57:45.947Z",
+          "UpdateTime": "2024-02-14T15:57:45.947Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "2ac2e19d-ade8-49d7-98aa-ee3de29961d3",
+          "Name": "CreatedBy",
+          "DisplayName": "CreatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-02-14T15:57:45.947Z",
+          "UpdateTime": "2024-02-14T15:57:45.947Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 3,
+      "EntityType": "Entity"
+    },
+    {
+      "Id": "d5899c4a-6bec-ee11-aaf0-6045bd086125",
+      "Name": "LoanTransactions",
+      "DisplayName": "LoanTransactions",
+      "Description": "Data for loan demo showing history of payments ",
+      "CreateTime": "2024-03-27T18:53:26.25Z",
+      "UpdateTime": "2024-03-27T18:57:53.467Z",
+      "Fields": [
+        {
+          "Id": "b28ce1df-d6a0-43c3-8d6e-2df5f11f3386",
+          "Name": "UpdatedBy",
+          "DisplayName": "UpdatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-27T18:53:26.26Z",
+          "UpdateTime": "2024-03-27T18:53:26.26Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "00ad7f5d-6bec-ee11-aaf0-6045bd086125",
+          "Name": "TrnsactionID",
+          "DisplayName": "Trnsaction ID",
+          "Description": "",
+          "CreateTime": "2024-03-27T18:53:57.933Z",
+          "UpdateTime": "2024-03-27T18:53:57.933Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "01ad7f5d-6bec-ee11-aaf0-6045bd086125",
+          "Name": "Type",
+          "DisplayName": "Type",
+          "Description": "",
+          "CreateTime": "2024-03-27T18:54:07.177Z",
+          "UpdateTime": "2024-03-27T18:54:07.177Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "d6e92369-6bec-ee11-aaf0-6045bd086125",
+          "Name": "Amount",
+          "DisplayName": "Amount",
+          "Description": "",
+          "CreateTime": "2024-03-27T18:54:17.467Z",
+          "UpdateTime": "2024-03-27T18:54:17.467Z",
+          "SqlType": {
+            "Name": "DECIMAL",
+            "LengthLimit": 1000,
+            "MaxValue": 1000000000000.0,
+            "MinValue": -1000000000000.0,
+            "DecimalPrecision": 2
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "a5aa047c-6bec-ee11-aaf0-6045bd086125",
+          "Name": "TransactionDate",
+          "DisplayName": "TransactionDate",
+          "Description": "",
+          "CreateTime": "2024-03-27T18:54:49.137Z",
+          "UpdateTime": "2024-03-27T18:54:49.137Z",
+          "SqlType": {
+            "Name": "DATE",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "55f5e2e9-6bec-ee11-aaf0-6045bd086125",
+          "Name": "Contact",
+          "DisplayName": "Contact",
+          "Description": "",
+          "CreateTime": "2024-03-27T18:57:53.47Z",
+          "UpdateTime": "2024-03-27T18:57:53.47Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "Customers"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "49ec6cbd-f63d-444e-8625-7da3ca253705",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-27T18:53:26.26Z",
+          "UpdateTime": "2024-03-27T18:53:26.26Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "a8f4c1c1-2cff-4b96-a7b7-86fda33a87b3",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-27T18:53:26.26Z",
+          "UpdateTime": "2024-03-27T18:53:26.26Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "ce9cd7a7-f0d1-45ee-a6ba-9f2d9f27c7bb",
+          "Name": "CreatedBy",
+          "DisplayName": "CreatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-27T18:53:26.26Z",
+          "UpdateTime": "2024-03-27T18:53:26.26Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "99b03878-c1ed-4fc4-9e01-a796cf92c83c",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2024-03-27T18:53:26.26Z",
+          "UpdateTime": "2024-03-27T18:53:26.26Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 6,
+      "EntityType": "Entity"
+    },
+    {
+      "Id": "5448e84a-dc84-ee11-8925-00224804ef52",
+      "Name": "SystemUser",
+      "DisplayName": "System Users",
+      "Description": "Contains Automation Cloud users and groups that have ever had roles assigned, or accessed Data Service",
+      "CreateTime": "2023-11-17T00:00:19.497Z",
+      "UpdateTime": "2023-11-17T00:00:19.497Z",
+      "Fields": [
+        {
+          "Id": "6baef2f8-7cc1-4b32-a76c-14785790b043",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.507Z",
+          "UpdateTime": "2023-11-17T00:00:19.507Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "dfef9b06-670a-4dc1-ad56-20fbee4b4bf4",
+          "Name": "Email",
+          "DisplayName": "E-mail",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.507Z",
+          "UpdateTime": "2023-11-17T00:00:19.507Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 512,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "54ba6d5e-66cd-4f18-9a6f-37b4c9c7f2cb",
+          "Name": "Type",
+          "DisplayName": "Type",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.507Z",
+          "UpdateTime": "2023-11-17T00:00:19.507Z",
+          "SqlType": {
+            "Name": "INT",
+            "LengthLimit": null,
+            "MaxValue": 9007199254740991.0,
+            "MinValue": -9007199254740991.0,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "ChoiceSetSingle",
+          "ReferenceChoiceSet": {
+            "Name": "UserType"
+          },
+          "IsAttachment": false
+        },
+        {
+          "Id": "0d9b7c8f-8098-4114-b2dd-6909afca5b25",
+          "Name": "IsActive",
+          "DisplayName": "IsActive",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.507Z",
+          "UpdateTime": "2023-11-17T00:00:19.507Z",
+          "SqlType": {
+            "Name": "BIT",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "8e02492b-2ac4-4621-94f1-98e854975945",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.507Z",
+          "UpdateTime": "2023-11-17T00:00:19.507Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "f246ac84-da9e-462a-80c6-eb42733f9064",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.507Z",
+          "UpdateTime": "2023-11-17T00:00:19.507Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "b39256b7-2192-4a34-8d42-efffbda2a9ae",
+          "Name": "Name",
+          "DisplayName": "Name",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.507Z",
+          "UpdateTime": "2023-11-17T00:00:19.507Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 512,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 5,
+      "EntityType": "SystemEntity"
+    },
+    {
+      "Id": "5c48e84a-dc84-ee11-8925-00224804ef52",
+      "Name": "Trades",
+      "DisplayName": "Trades",
+      "Description": "",
+      "CreateTime": "2023-11-17T00:00:19.73Z",
+      "UpdateTime": "2024-02-28T18:30:48.403Z",
+      "Fields": [
+        {
+          "Id": "6648e84a-dc84-ee11-8925-00224804ef52",
+          "Name": "AccountId",
+          "DisplayName": "AccountId",
+          "Description": "",
+          "CreateTime": "2023-11-17T00:00:19.82Z",
+          "UpdateTime": "2023-11-17T00:00:19.82Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "6748e84a-dc84-ee11-8925-00224804ef52",
+          "Name": "TransactionId",
+          "DisplayName": "TransactionId",
+          "Description": "",
+          "CreateTime": "2023-11-17T00:00:19.827Z",
+          "UpdateTime": "2023-11-17T00:00:19.827Z",
+          "SqlType": {
+            "Name": "NVARCHAR",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "6848e84a-dc84-ee11-8925-00224804ef52",
+          "Name": "Price",
+          "DisplayName": "Price",
+          "Description": "",
+          "CreateTime": "2023-11-17T00:00:19.837Z",
+          "UpdateTime": "2023-11-17T00:00:19.837Z",
+          "SqlType": {
+            "Name": "DECIMAL",
+            "LengthLimit": 1000,
+            "MaxValue": 1000000000000.0,
+            "MinValue": -1000000000000.0,
+            "DecimalPrecision": 2
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "6948e84a-dc84-ee11-8925-00224804ef52",
+          "Name": "Quantity",
+          "DisplayName": "Quantity",
+          "Description": "",
+          "CreateTime": "2023-11-17T00:00:19.843Z",
+          "UpdateTime": "2023-11-17T00:00:19.843Z",
+          "SqlType": {
+            "Name": "DECIMAL",
+            "LengthLimit": 1000,
+            "MaxValue": 1000000000000.0,
+            "MinValue": -1000000000000.0,
+            "DecimalPrecision": 2
+          },
+          "IsSystemField": false,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "6a48e84a-dc84-ee11-8925-00224804ef52",
+          "Name": "Fees",
+          "DisplayName": "Fees",
+          "Description": "",
+          "CreateTime": "2023-11-17T00:00:19.85Z",
+          "UpdateTime": "2023-11-17T00:00:19.85Z",
+          "SqlType": {
+            "Name": "DECIMAL",
+            "LengthLimit": 1000,
+            "MaxValue": 1000000000000.0,
+            "MinValue": -1000000000000.0,
+            "DecimalPrecision": 2
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "729c8580-345c-4b1d-84d1-4961538272b9",
+          "Name": "CreatedBy",
+          "DisplayName": "CreatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.74Z",
+          "UpdateTime": "2023-11-17T00:00:19.74Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "223be412-a783-4282-910f-512416984b82",
+          "Name": "UpdatedBy",
+          "DisplayName": "UpdatedBy",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.74Z",
+          "UpdateTime": "2023-11-17T00:00:19.74Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "SystemUser"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "cfbc86f7-6a32-4feb-ab3d-56fd34d3bf5f",
+          "Name": "CreateTime",
+          "DisplayName": "CreateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.74Z",
+          "UpdateTime": "2023-11-17T00:00:19.74Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "2de6bf77-67d6-ee11-85f9-6045bd086125",
+          "Name": "PrimaryContact",
+          "DisplayName": "Primary Contact",
+          "Description": "",
+          "CreateTime": "2024-02-28T18:30:48.403Z",
+          "UpdateTime": "2024-02-28T18:30:48.403Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": 200,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": false,
+          "IsRequired": false,
+          "ReferenceEntity": {
+            "Name": "Customers"
+          },
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Relationship",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "56b69556-6553-4ae8-9456-dbc846e184d2",
+          "Name": "UpdateTime",
+          "DisplayName": "UpdateTime",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.74Z",
+          "UpdateTime": "2023-11-17T00:00:19.74Z",
+          "SqlType": {
+            "Name": "DATETIMEOFFSET",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": false,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        },
+        {
+          "Id": "17aa36d5-95e9-4582-9d1b-f343c62bcca1",
+          "Name": "Id",
+          "DisplayName": "Id",
+          "Description": "System built-in field",
+          "CreateTime": "2023-11-17T00:00:19.74Z",
+          "UpdateTime": "2023-11-17T00:00:19.74Z",
+          "SqlType": {
+            "Name": "UNIQUEIDENTIFIER",
+            "LengthLimit": null,
+            "MaxValue": null,
+            "MinValue": null,
+            "DecimalPrecision": null
+          },
+          "IsSystemField": true,
+          "IsRequired": true,
+          "ReferenceEntity": null,
+          "ReferenceType": "ManyToOne",
+          "FieldDisplayType": "Basic",
+          "ReferenceChoiceSet": null,
+          "IsAttachment": false
+        }
+      ],
+      "RecordCount": 11,
+      "EntityType": "Entity"
+    }
+  ],
+  "Namespace": "GetCMDatasets",
+  "EntitiesJson": "{\"entities\":[{\"name\":\"CCProject\",\"displayName\":\"CC Project\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"The parent project entity\",\"fields\":[{\"id\":\"edca0b78-47fc-4fba-bdb7-40465a1f371f\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-14T13:53:29.307Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:53:29.307Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"c9678b6b-66fa-ee11-aaf0-6045bd086125\",\"name\":\"Customer\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Customer\",\"description\":\"\",\"createTime\":\"2024-04-14T13:53:50.287Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:53:50.287Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"ca678b6b-66fa-ee11-aaf0-6045bd086125\",\"name\":\"ProjectLead\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Project Lead\",\"description\":\"\",\"createTime\":\"2024-04-14T13:53:59.187Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:53:59.187Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"da824173-66fa-ee11-aaf0-6045bd086125\",\"name\":\"Engineer\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Engineer\",\"description\":\"\",\"createTime\":\"2024-04-14T13:54:03.233Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:54:03.233Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3b70bb80-66fa-ee11-aaf0-6045bd086125\",\"name\":\"Coordinator\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Coordinator\",\"description\":\"\",\"createTime\":\"2024-04-14T13:54:25.85Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:54:25.85Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"d916b686-66fa-ee11-aaf0-6045bd086125\",\"name\":\"LeadTechnician\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Lead Technician\",\"description\":\"\",\"createTime\":\"2024-04-14T13:54:35.87Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:54:35.87Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"60278699-66fa-ee11-aaf0-6045bd086125\",\"name\":\"XeroContactID\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Xero Contact ID\",\"description\":\"\",\"createTime\":\"2024-04-14T13:55:07.44Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:55:07.44Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"d6b6872b-68fa-ee11-aaf0-6045bd086125\",\"name\":\"ProjectName\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"Project Name\",\"description\":\"\",\"createTime\":\"2024-04-14T14:06:21.907Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T14:06:21.907Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"8dd78442-809b-41d5-8fef-756e6a820ef6\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-14T13:53:29.307Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:53:29.307Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"bbd01ab7-9d5d-4e92-a892-aa21a9174fdc\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_7550c6cd-e775-487c-9ef9-e60d3376b95a\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794533Z\",\"updateTime\":\"2024-04-30T01:31:39.0794534Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-14T13:53:29.307Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:53:29.307Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"d4a55c7b-d8f5-498a-a6e8-abaee8855dae\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_d631c531-2f30-47cc-b0b4-5e0e8b9e861f\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794541Z\",\"updateTime\":\"2024-04-30T01:31:39.0794542Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-14T13:53:29.307Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:53:29.307Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6cb789dc-179a-4bcf-8a33-ffb552f4cb75\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-14T13:53:29.307Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:53:29.307Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":0,\"storageSizeInMB\":0.140625,\"usedStorageSizeInMB\":0.03125,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"ae0d075f-66fa-ee11-aaf0-6045bd086125\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2024-04-14T13:53:29.297Z\",\"updateTime\":\"2024-04-14T14:06:21.9Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"},{\"name\":\"CCProjectLineItems\",\"displayName\":\"CC Project Line Items\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"\",\"fields\":[{\"id\":\"df804da8-402b-47d5-86fd-42036dcb5e29\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_2f14ca34-08af-4b76-ae0b-9c869ba85992\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794549Z\",\"updateTime\":\"2024-04-30T01:31:39.0794549Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-13T13:00:00.193Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-13T13:00:00.193Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"c7b69dcd-95f9-ee11-aaf0-6045bd086125\",\"name\":\"ProductCode\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"Product Code\",\"description\":\"\",\"createTime\":\"2024-04-13T13:00:30.02Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-13T13:00:30.02Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"a45941d7-95f9-ee11-aaf0-6045bd086125\",\"name\":\"Description\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Description\",\"description\":\"\",\"createTime\":\"2024-04-13T13:00:46.187Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-13T13:00:46.187Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"cf29f749-64fa-ee11-aaf0-6045bd086125\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"Name\",\"description\":\"\",\"createTime\":\"2024-04-14T13:38:34.97Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:38:34.97Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"d029f749-64fa-ee11-aaf0-6045bd086125\",\"name\":\"Quantity\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"displayName\":\"Quantity\",\"description\":\"\",\"createTime\":\"2024-04-14T13:38:43.747Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T13:38:43.747Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"92b2568a-68fa-ee11-aaf0-6045bd086125\",\"name\":\"CCProject\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CCProject_21abfcc8-edd4-46f8-a80b-ec3d63bbc436\",\"referenceEntity\":{\"name\":\"CCProject\",\"displayName\":\"CC Project\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"ae0d075f-66fa-ee11-aaf0-6045bd086125\"},\"referenceField\":{\"id\":\"d6b6872b-68fa-ee11-aaf0-6045bd086125\",\"definition\":{\"name\":\"ProjectName\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Project Name\",\"createTime\":\"2024-04-30T01:31:39.0794586Z\",\"updateTime\":\"2024-04-30T01:31:39.0794587Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"CC Project\",\"description\":\"\",\"createTime\":\"2024-04-14T14:09:00.95Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-14T14:09:00.95Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6aac7a98-95e2-48ef-8b2d-77486940833f\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-13T13:00:00.193Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-13T13:00:00.193Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"e81b7c4e-523a-453c-a139-79bf8574f95a\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-13T13:00:00.193Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-13T13:00:00.193Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"369db17a-fe34-4dee-82d1-95995e8f1c28\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_e565aebe-92a9-4a0d-8cea-3fa9c698cc42\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794613Z\",\"updateTime\":\"2024-04-30T01:31:39.0794613Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-13T13:00:00.193Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-13T13:00:00.193Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"e478a3fe-3f55-4b5e-8432-b361a09fb4a9\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-13T13:00:00.193Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-13T13:00:00.193Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":0,\"storageSizeInMB\":0.140625,\"usedStorageSizeInMB\":0.03125,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"4c87d1bb-95f9-ee11-aaf0-6045bd086125\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2024-04-13T13:00:00.153Z\",\"updateTime\":\"2024-04-14T14:09:00.96Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"},{\"name\":\"CMDatasets\",\"displayName\":\"CM Datasets\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"\",\"fields\":[{\"id\":\"af9c4889-f41e-46dc-b46e-26b2d3f5cc82\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-30T01:28:28.373Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-30T01:28:28.373Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"fc396570-1dbb-4560-a70d-4ea8c6f29a2c\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_c33de19a-3bcd-453c-bcee-e66f3397cce4\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794621Z\",\"updateTime\":\"2024-04-30T01:31:39.0794622Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-30T01:28:28.373Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-30T01:28:28.373Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"489ccef9-9006-ef11-aaf0-6045bd086125\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Name\",\"description\":\"\",\"createTime\":\"2024-04-30T01:28:41.783Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-30T01:28:41.783Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"499ccef9-9006-ef11-aaf0-6045bd086125\",\"name\":\"Owner\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Owner\",\"description\":\"\",\"createTime\":\"2024-04-30T01:28:48.46Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-30T01:28:48.46Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"c1c8ce41-9106-ef11-aaf0-6045bd086125\",\"name\":\"DatasetId\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Dataset Id\",\"description\":\"\",\"createTime\":\"2024-04-30T01:30:42.577Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-30T01:30:42.577Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6b2df3fa-f40f-4889-99e9-8194a2cfdf04\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-30T01:28:28.373Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-30T01:28:28.373Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3aa4e9e2-f4ea-484f-a03b-9f645843fef3\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-30T01:28:28.373Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-30T01:28:28.373Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"fbb871fb-3882-491e-ae9a-c7469d55e001\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_4336594c-d64b-43a5-9e7e-325048ed18ad\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794656Z\",\"updateTime\":\"2024-04-30T01:31:39.0794656Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-04-30T01:28:28.373Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-04-30T01:28:28.373Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":0,\"storageSizeInMB\":0.0,\"usedStorageSizeInMB\":0.0,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5a97cef1-9006-ef11-aaf0-6045bd086125\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2024-04-30T01:28:28.363Z\",\"updateTime\":\"2024-04-30T01:30:42.583Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"},{\"name\":\"Customers\",\"displayName\":\"Customers\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"Customers for Bank Mainframe\",\"fields\":[{\"id\":\"d5654742-7528-42fe-9bdb-5461a1ac0154\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_c27e8171-892b-47d3-9138-c0f9d86701ef\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794692Z\",\"updateTime\":\"2024-04-30T01:31:39.0794692Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-06T01:28:41.33Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:28:41.33Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"963e4803-ecac-471d-85d4-582df2c1bd08\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-06T01:28:41.33Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:28:41.33Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"a25d6c3a-8fc4-ee11-85f9-6045bd086125\",\"name\":\"CustID\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"CustId\",\"description\":\"\",\"createTime\":\"2024-02-06T01:29:54.463Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:29:54.463Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"403a1c49-8fc4-ee11-85f9-6045bd086125\",\"name\":\"FullName\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"Full Name\",\"description\":\"\",\"createTime\":\"2024-02-06T01:30:19.1Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:30:19.1Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"f8d8e154-8fc4-ee11-85f9-6045bd086125\",\"name\":\"PhoneNumber\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Phone Number\",\"description\":\"\",\"createTime\":\"2024-02-06T01:30:38.85Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:30:38.85Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"c6408a5e-8fc4-ee11-85f9-6045bd086125\",\"name\":\"DateofBirth\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Date of Birth\",\"description\":\"\",\"createTime\":\"2024-02-06T01:30:55.053Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:30:55.053Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"7dbbb073-8fc4-ee11-85f9-6045bd086125\",\"name\":\"CustomerIDNumber\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Customer ID Number\",\"description\":\"\",\"createTime\":\"2024-02-06T01:31:30.53Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:31:30.53Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"1190fb7a-8fc4-ee11-85f9-6045bd086125\",\"name\":\"EmailAddress\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Email Address\",\"description\":\"\",\"createTime\":\"2024-02-06T01:31:42.783Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:31:42.783Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"1290fb7a-8fc4-ee11-85f9-6045bd086125\",\"name\":\"UserName\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"User Name\",\"description\":\"\",\"createTime\":\"2024-02-06T01:31:48.73Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:31:48.73Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"bfd76c87-8fc4-ee11-85f9-6045bd086125\",\"name\":\"Risk\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"BIT\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Risk\",\"description\":\"\",\"createTime\":\"2024-02-06T01:32:03.657Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:32:03.657Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"bfa955f7-dd45-4e1b-b678-b16edcbe8748\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-06T01:28:41.33Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:28:41.33Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"1f17531d-df94-46df-a335-e1085298b511\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-06T01:28:41.33Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:28:41.33Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"fef5d976-0b13-487c-9400-e8fe4979ef6f\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_91b77c5b-5a6f-4c7e-b0ac-3b3520753ddf\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.07947Z\",\"updateTime\":\"2024-04-30T01:31:39.0794701Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-06T01:28:41.33Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-06T01:28:41.33Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":11,\"storageSizeInMB\":0.140625,\"usedStorageSizeInMB\":0.03125,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"c0fad30e-8fc4-ee11-85f9-6045bd086125\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2024-02-06T01:28:41.32Z\",\"updateTime\":\"2024-02-06T01:32:03.653Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"},{\"name\":\"DFS\",\"displayName\":\"DFS\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"\",\"fields\":[{\"id\":\"9ac7b0dd-3df5-42d1-a650-41783098318b\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-28T18:56:20.543Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-28T18:56:20.543Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"bb53fdc9-e181-417a-a9d7-4e44b5ed10d5\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_33ff9ba0-cbb8-4b10-b055-f5ec9e736073\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794737Z\",\"updateTime\":\"2024-04-30T01:31:39.0794738Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-28T18:56:20.543Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-28T18:56:20.543Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"fb55311b-35ed-ee11-aaf0-6045bd086125\",\"name\":\"FileName\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"FileName\",\"description\":\"\",\"createTime\":\"2024-03-28T18:58:05.037Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-28T18:58:05.037Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"0de21e25-35ed-ee11-aaf0-6045bd086125\",\"name\":\"Rate\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"displayName\":\"Rate\",\"description\":\"\",\"createTime\":\"2024-03-28T18:58:21.68Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-28T18:58:21.68Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3c7bba6f-cf7b-444a-b5a8-b18c2e4add17\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-28T18:56:20.543Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-28T18:56:20.543Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"0cf57e2b-3c17-4ec5-90b1-d6a7269a85bd\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-28T18:56:20.543Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-28T18:56:20.543Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"c49f8f4c-9772-40d3-b4d6-dda6af0eda2b\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_7b78e1c8-8e3c-4627-be06-560603213727\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794746Z\",\"updateTime\":\"2024-04-30T01:31:39.0794746Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-28T18:56:20.543Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-28T18:56:20.543Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":0,\"storageSizeInMB\":0.0,\"usedStorageSizeInMB\":0.0,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"7a41eadc-34ed-ee11-aaf0-6045bd086125\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2024-03-28T18:56:20.533Z\",\"updateTime\":\"2024-03-28T18:58:21.69Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"},{\"name\":\"InsuranceDemo\",\"displayName\":\"InsuranceDemo\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"\",\"fields\":[{\"id\":\"4cb1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"Year\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Year\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.047Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.047Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"4db1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"Category\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Category\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.057Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.057Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"4eb1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"GeneralLiability\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"GeneralLiability\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.063Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.063Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"4fb1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"Auto1\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Auto1\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.073Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.073Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"50b1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"Property1\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Property1\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.08Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.08Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"51b1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"Indentifier\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Indentifier\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.083Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.083Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"52b1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"Location\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Location\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.09Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.09Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"53b1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"Address\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Address\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.097Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.097Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"54b1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"Interest\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Interest\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.1Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.1Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"55b1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"FTE\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"FTE\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.107Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.107Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"56b1bfca-51cb-ee11-85f9-6045bd086125\",\"name\":\"LOC1\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"LOC1\",\"description\":\"\",\"createTime\":\"2024-02-14T15:57:46.113Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:46.113Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"210d09a4-204a-4e31-9dc8-6314eff34eed\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-14T15:57:45.947Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:45.947Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"29a0df5f-8f63-4497-bd11-842c5d07ee41\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-14T15:57:45.947Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:45.947Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"f20aaa37-a48f-4432-9385-b65cfe1452b1\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-14T15:57:45.947Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:45.947Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"bedf8bfd-567a-43ad-ae1c-d74f710a1c89\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_27ddb671-140d-4dff-9e50-0525705907ce\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.079478Z\",\"updateTime\":\"2024-04-30T01:31:39.079478Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-14T15:57:45.947Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:45.947Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"2ac2e19d-ade8-49d7-98aa-ee3de29961d3\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_e5b4d97e-923d-49e9-b642-413981d9c43d\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794787Z\",\"updateTime\":\"2024-04-30T01:31:39.0794788Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-02-14T15:57:45.947Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-14T15:57:45.947Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":3,\"storageSizeInMB\":0.140625,\"usedStorageSizeInMB\":0.03125,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"42b1bfca-51cb-ee11-85f9-6045bd086125\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2024-02-14T15:57:45.937Z\",\"updateTime\":\"2024-02-14T15:57:46.127Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"},{\"name\":\"LoanTransactions\",\"displayName\":\"LoanTransactions\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"Data for loan demo showing history of payments \",\"fields\":[{\"id\":\"b28ce1df-d6a0-43c3-8d6e-2df5f11f3386\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_bd340933-3520-4fe4-8b16-484743ec4996\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794812Z\",\"updateTime\":\"2024-04-30T01:31:39.0794812Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-27T18:53:26.26Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:53:26.26Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"00ad7f5d-6bec-ee11-aaf0-6045bd086125\",\"name\":\"TrnsactionID\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"Trnsaction ID\",\"description\":\"\",\"createTime\":\"2024-03-27T18:53:57.933Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:53:57.933Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"01ad7f5d-6bec-ee11-aaf0-6045bd086125\",\"name\":\"Type\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Type\",\"description\":\"\",\"createTime\":\"2024-03-27T18:54:07.177Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:54:07.177Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"d6e92369-6bec-ee11-aaf0-6045bd086125\",\"name\":\"Amount\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"displayName\":\"Amount\",\"description\":\"\",\"createTime\":\"2024-03-27T18:54:17.467Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:54:17.467Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"a5aa047c-6bec-ee11-aaf0-6045bd086125\",\"name\":\"TransactionDate\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATE\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"TransactionDate\",\"description\":\"\",\"createTime\":\"2024-03-27T18:54:49.137Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:54:49.137Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"55f5e2e9-6bec-ee11-aaf0-6045bd086125\",\"name\":\"Contact\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_Contact_c3d310e9-e544-4c02-8d0a-9361a695b0b8\",\"referenceEntity\":{\"name\":\"Customers\",\"displayName\":\"Customers\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"c0fad30e-8fc4-ee11-85f9-6045bd086125\"},\"referenceField\":{\"id\":\"403a1c49-8fc4-ee11-85f9-6045bd086125\",\"definition\":{\"name\":\"FullName\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Full Name\",\"createTime\":\"2024-04-30T01:31:39.079482Z\",\"updateTime\":\"2024-04-30T01:31:39.0794821Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Contact\",\"description\":\"\",\"createTime\":\"2024-03-27T18:57:53.47Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:57:53.47Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"49ec6cbd-f63d-444e-8625-7da3ca253705\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-27T18:53:26.26Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:53:26.26Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"a8f4c1c1-2cff-4b96-a7b7-86fda33a87b3\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-27T18:53:26.26Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:53:26.26Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"ce9cd7a7-f0d1-45ee-a6ba-9f2d9f27c7bb\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_eb0f6165-9171-40e2-9743-e442a0a1fb62\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794846Z\",\"updateTime\":\"2024-04-30T01:31:39.0794847Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-27T18:53:26.26Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:53:26.26Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"99b03878-c1ed-4fc4-9e01-a796cf92c83c\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2024-03-27T18:53:26.26Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-03-27T18:53:26.26Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":6,\"storageSizeInMB\":0.140625,\"usedStorageSizeInMB\":0.03125,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"d5899c4a-6bec-ee11-aaf0-6045bd086125\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2024-03-27T18:53:26.25Z\",\"updateTime\":\"2024-03-27T18:57:53.467Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"},{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"description\":\"Contains Automation Cloud users and groups that have ever had roles assigned, or accessed Data Service\",\"fields\":[{\"id\":\"6baef2f8-7cc1-4b32-a76c-14785790b043\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.507Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.507Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"dfef9b06-670a-4dc1-ad56-20fbee4b4bf4\",\"name\":\"Email\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"E-mail\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.507Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.507Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"54ba6d5e-66cd-4f18-9a6f-37b4c9c7f2cb\",\"name\":\"Type\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceChoiceSet\":{\"name\":\"UserType\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"INT\",\"maxValue\":9007199254740991.0,\"minValue\":-9007199254740991.0},\"isRequired\":true,\"displayName\":\"Type\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.507Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.507Z\",\"isSystemField\":true,\"fieldDisplayType\":\"ChoiceSetSingle\",\"choiceSetId\":\"4d48e84a-dc84-ee11-8925-00224804ef52\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"0d9b7c8f-8098-4114-b2dd-6909afca5b25\",\"name\":\"IsActive\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"BIT\"},\"isRequired\":true,\"displayName\":\"IsActive\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.507Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.507Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"8e02492b-2ac4-4621-94f1-98e854975945\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.507Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.507Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"f246ac84-da9e-462a-80c6-eb42733f9064\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.507Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.507Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":true,\"displayName\":\"Name\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.507Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.507Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":5,\"storageSizeInMB\":0.070312,\"usedStorageSizeInMB\":0.015625,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2023-11-17T00:00:19.497Z\",\"updateTime\":\"2023-11-17T00:00:19.497Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"},{\"name\":\"Trades\",\"displayName\":\"Trades\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"\",\"fields\":[{\"id\":\"6648e84a-dc84-ee11-8925-00224804ef52\",\"name\":\"AccountId\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"AccountId\",\"description\":\"\",\"createTime\":\"2023-11-17T00:00:19.82Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.82Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6748e84a-dc84-ee11-8925-00224804ef52\",\"name\":\"TransactionId\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"displayName\":\"TransactionId\",\"description\":\"\",\"createTime\":\"2023-11-17T00:00:19.827Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.827Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6848e84a-dc84-ee11-8925-00224804ef52\",\"name\":\"Price\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":true,\"displayName\":\"Price\",\"description\":\"\",\"createTime\":\"2023-11-17T00:00:19.837Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.837Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6948e84a-dc84-ee11-8925-00224804ef52\",\"name\":\"Quantity\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":true,\"displayName\":\"Quantity\",\"description\":\"\",\"createTime\":\"2023-11-17T00:00:19.843Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.843Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6a48e84a-dc84-ee11-8925-00224804ef52\",\"name\":\"Fees\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"displayName\":\"Fees\",\"description\":\"\",\"createTime\":\"2023-11-17T00:00:19.85Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.85Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"729c8580-345c-4b1d-84d1-4961538272b9\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_03d4a3b0-990f-4d3f-be87-39f04e60a319\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0794863Z\",\"updateTime\":\"2024-04-30T01:31:39.0794863Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.74Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.74Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"223be412-a783-4282-910f-512416984b82\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_bc1e8c42-f148-4083-8a38-90dc815bf49b\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5448e84a-dc84-ee11-8925-00224804ef52\"},\"referenceField\":{\"id\":\"b39256b7-2192-4a34-8d42-efffbda2a9ae\",\"definition\":{\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"displayName\":\"Name\",\"createTime\":\"2024-04-30T01:31:39.0795059Z\",\"updateTime\":\"2024-04-30T01:31:39.0795059Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.74Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.74Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"cfbc86f7-6a32-4feb-ab3d-56fd34d3bf5f\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.74Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.74Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"2de6bf77-67d6-ee11-85f9-6045bd086125\",\"name\":\"PrimaryContact\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isUnique\":false,\"referenceName\":\"fk_PrimaryContact_9c2bb121-e57c-42d9-ac85-b956c773e101\",\"referenceEntity\":{\"name\":\"Customers\",\"displayName\":\"Customers\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"c0fad30e-8fc4-ee11-85f9-6045bd086125\"},\"referenceField\":{\"id\":\"403a1c49-8fc4-ee11-85f9-6045bd086125\",\"definition\":{\"name\":\"FullName\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Full Name\",\"createTime\":\"2024-04-30T01:31:39.0795067Z\",\"updateTime\":\"2024-04-30T01:31:39.0795067Z\",\"isSystemField\":false,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\",\"lengthLimit\":200},\"isRequired\":false,\"displayName\":\"Primary Contact\",\"description\":\"\",\"createTime\":\"2024-02-28T18:30:48.403Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2024-02-28T18:30:48.403Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isSystemField\":false,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"56b69556-6553-4ae8-9456-dbc846e184d2\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.74Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.74Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"17aa36d5-95e9-4582-9d1b-f343c62bcca1\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2023-11-17T00:00:19.74Z\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"updateTime\":\"2023-11-17T00:00:19.74Z\",\"isSystemField\":true,\"fieldDisplayType\":\"Basic\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":11,\"storageSizeInMB\":0.140625,\"usedStorageSizeInMB\":0.03125,\"isRbacEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"5c48e84a-dc84-ee11-8925-00224804ef52\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2023-11-17T00:00:19.73Z\",\"updateTime\":\"2024-02-28T18:30:48.403Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\"}],\"choicesets\":[{\"id\":\"4d48e84a-dc84-ee11-8925-00224804ef52\",\"name\":\"UserType\",\"displayName\":\"User Type\",\"description\":\"Denotes the type of user record in the System User entity\",\"createdBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"createTime\":\"2023-11-17T00:00:18.947Z\",\"updateTime\":\"2023-11-17T00:00:18.947Z\",\"updatedBy\":\"ed3f4d65-4bb8-487b-9ba5-87dc85cd854f\",\"isModelReserved\":false,\"data\":[{\"DisplayName\":\"Robot\",\"Name\":\"Robot\",\"NumberId\":2},{\"DisplayName\":\"User\",\"Name\":\"User\",\"NumberId\":0},{\"DisplayName\":\"Group\",\"Name\":\"Group\",\"NumberId\":1},{\"DisplayName\":\"Application\",\"Name\":\"Application\",\"NumberId\":3}]}]}",
+  "SelectedEntitiesNames": [
+    "CMDatasets",
+    "SystemUser"
+  ]
+}

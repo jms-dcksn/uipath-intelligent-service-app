@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <style>
+      body {
+        background-color: #cecece;
+        color: #1c428b;
+      }
+
+      h1 {
+        color: #e11631;
+        font-family: arial, verdana;
+      }
+      
+      table#headerTable, td#headerData { 
+         border: 1px solid black; border-collapse: collapse;
+         font-family: arial, verdana;
+      }
+      
+      #headerData span {
+         display: block;
+         overflow: hidden;
+         padding: 0 4px 0 0;
+      }
+
+      #headerData span input {
+          width: 100%;
+      }
+
+      .placeholder {
+          width: 30%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+      }
+      
+      a {
+          color: #000000;
+      }
+   </style>
+   </head>
+<body>
+    <img src="logo.png" class="placeholder">
+    <center><h1>Policy Management System</h1></center>
+    <hr>
+
+<br>
+<h2>Policy Release</h2>
+&nbsp;
+<p id="status"></p>
+<br>
+<br>
+
+<form id="policyForm">
+<table cellpadding="5" id="headerTable" width="100%">
+<tr>
+   <td id="headerData">
+      <input type="button" onclick="submitForm()" value="Submit">
+      <p/>
+   </td>
+</tr>
+
+<tr>
+   <td id="headerData" style="vertical-align:top">
+      <table width="80%" cellpadding="3" id="policyDetails">
+        <tr>
+        <td>Policy Number:</td>
+        <td><span><input type="text" id="PolicyNumber" value=""></span></td>
+        </tr>
+        <tr>
+        <td>Policy Type:</td>
+        <td><span><input type="text" id="PolicyType" value=""></span></td>
+        </tr>
+        <tr>
+        <td>Agency Customer ID:</td>
+        <td><span><input type="text" id="AgencyCustomerID" value=""></span></td>
+        </tr>
+        <tr>
+        <td>Company Name:</td>
+        <td><span><input type="text" id="CompanyName" value=""></span></td>
+        </tr>
+        <tr>
+        <td>Company Phone:</td>
+        <td><span><input type="text" id="CompanyPhone" value=""></span></td>
+        </tr>
+        <tr>
+        <td>Insured Name:</td>
+        <td><span><input type="text" id="InsuredName" value=""></span></td>
+        </tr>
+        <tr>
+        <td>Effective Date:</td>
+        <td><span><input type="text" id="EffectiveDate" value=""></span></td>
+        </tr>
+        <tr>
+        <td>Cancellation Request:</td>
+        <td><input type="checkbox" id="CancellationRequest"></td>
+        </tr>
+        <tr>
+        <td>Policy Release:</td>
+        <td><input type="checkbox" id="PolicyRelease"></td>
+        </tr>
+      </table>
+      <br>
+   </td>
+</tr>
+
+</form>
+
+<script>
+function submitForm() {
+  
+  document.getElementById("status").innerHTML = "Policy " + document.getElementById("PolicyNumber").value 
+      + " was successfully cancelled.";
+  
+  document.getElementById("policyForm").reset();
+}
+</script>
+    
+</body>
+</html>

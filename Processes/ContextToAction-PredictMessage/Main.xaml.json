@@ -1,0 +1,81 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_Subject",
+      "DisplayName": "in_Subject",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "REplace ID",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Message",
+      "DisplayName": "in_Message",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "I need a replacement card.",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_PredictUrl",
+      "DisplayName": "in_PredictUrl",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "https://cloud.uipath.com/communicationsminingteam/InternalIltTraining/reinfer_/api/v1/datasets/nathan-ness-sandbox/sla2h/labellers/187/predict",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_Labels",
+      "DisplayName": "out_Labels",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Entities",
+      "DisplayName": "Entities",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_API_Asset_Name",
+      "DisplayName": "in_API_Asset_Name",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Farmers CM API Key",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
